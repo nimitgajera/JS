@@ -9,12 +9,12 @@
 // console.log("b+a")          
 // console.log(a+"b")
 // console.log(a*"b")
-wedw
+
 
 
 
 // console.log(true+true+false+true<1)
-// console.log(trsssssue+true+"false")
+// console.log(true+true+"false")
 // console.log(true+true>0)    
 // console.log(true+true<false+true<1)    
 // console.log(true+true<1)        
@@ -86,3 +86,57 @@ wedw
 //     const c=22
 //     console.log(b*c)
 // }    console.log(b*c)
+
+// console.log(typeof function () { });          //function
+// console.log(typeof true);                     //boolean
+// console.log(typeof {});                       //object
+// console.log(typeof []);                       //object
+// console.log(typeof 100);                      //number
+// console.log(typeof undefined);                //undefined
+// console.log(typeof null);                     //object
+// console.log(typeof Symbol("Hello"));          //symbol
+// console.log(typeof 100n);                     //bigint
+// console.log(typeof "Hello");                  //string 
+
+
+
+// console.log(null==null)              //true
+// console.log(null===null)             //true
+
+// console.log(NaN==null)               //false
+// console.log(NaN===null)              //false
+
+// console.log(NaN==NaN)                //false
+// console.log(NaN===NaN)               //false
+
+// console.log(undefined==null)         //true
+// console.log(null===undefined)        //false
+
+// console.log(0==null);               //false
+// console.log(0==NaN);                //false
+// console.log(0==undefined);          //false
+// console.log(0==0);                  //true
+
+
+// 1=true
+// 0=false
+
+
+// console.log(1^1)                        //0
+// console.log(0^0)                        //0
+// console.log(1^0)                        //1
+// console.log(0^1)                        //1
+
+// console.log(1 & 1)              //1
+// console.log(1 & 0)              //0
+// console.log(0 & 1)              //0
+// console.log(0 & 0)              //0
+
+
+// console.log(1 | 1)              //1
+// console.log(1 | 0)              //1
+// console.log(0 | 1)              //1
+// console.log(0 | 0)              //0
+
+
+
