@@ -140,3 +140,73 @@
 
 
 
+
+// var arr=[22,35,55,61,92]
+// arr.push(71);
+// console.log(arr)
+// arr.pop()
+// console.log(arr)
+
+
+
+
+
+// var arr=[22,35,55,61,92,10]
+// arr.unshift(71);
+// console.log(arr)
+// arr.pop()
+// console.log(arr)
+
+
+// var arr=[22,35,55,61,92,10]
+// arr.shift();
+// console.log(arr)
+// arr.push(00)
+// console.log(arr)
+
+
+
+
+// var arr=[22,35,55,61,92,10]
+// arr.unshift(1);
+// console.log(arr)
+// arr.pop()
+// console.log(arr)
+
+
+
+
+// var arr=[22,35,55,61,92,10]
+// // arr.splice(-1,-3)
+// // console.log(arr)
+// arr.splice(-3)
+// console.log(arr)
+
+
+
+// var arr=[22,35,55,61,92,10]
+// // arr.splice(1,3)
+// // console.log(arr)
+// arr.splice(1,1,11,21,23)
+// console.log(arr)
+
+
+
+
+
+// var arr=[22,35,55,61,92,10]
+// // arr.splice(1,3)
+// // console.log(arr)
+// arr.splice(-3,2,11,21,23)
+// console.log(arr)
+
+
+
+
+
+
+// var arr=[22,35,55,61,92,10]
+// // arr.splice(1,3)
+// // console.log(arr)
+// arr.splice(1,0,11,21,23)
+// console.log(arr)
