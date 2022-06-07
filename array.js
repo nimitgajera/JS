@@ -1,0 +1,131 @@
+/*
+    array
+    *****
+        collection of "elements" called as "array"
+        index starts from "0"
+        []
+*/
+// let arr = [10, 20, "thirty", 40, " 50", 60, "70", 80, 90, 100];
+
+// console.log(typeof arr);
+// console.log(arr);
+// console.log(arr["0"]);
+// console.log(arr[3.0]);
+// console.log(arr[3.1]);
+// arr[3.5] = 45;
+// arr["A"] = 110;
+
+// console.log(arr[3.5]);
+// console.log(arr["A"]);
+// console.log(arr[2][0]);
+// console.log(arr.length);
+
+// let arr = [10, 20, 30, 40, 50];
+// console.log(arr[0], arr[1], arr[2], arr[3], arr[4]);
+// console.log(arr[-1]);
+// console.log(arr[5], arr[100]);
+
+//length
+// The length property of an object which is an instance of type Array sets or returns the number of elements in that array.
+
+// let arr = [10, 20, 30, 40, 50];
+// console.log(arr.length);
+// let arr1 = [10, 20]; //
+// arr1[2] = 30;
+// console.log(arr1.length);
+// arr1[100] = 1000;
+// console.log(arr1.length);
+
+// let arr2 = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
+// console.log(arr2.length);
+// arr2.length = 5;
+// console.log(arr2[0], arr2[4], arr2[5], arr2[9]);*
+//delete
+//delete the particular
+
+// If you want an array element to exist but have an undefined value, use the undefined value instead of the delete operator.
+// let b;
+
+// let arr = [10, 20, 30, 40, 50];
+// arr.length = 10;
+// arr[2] = undefined;
+// console.log(arr);
+// console.log(arr[7]);
+
+// console.log(arr.length);
+// delete arr[4];
+// console.log(arr.length);
+// delete arr[0];
+// arr[7] = undefined;
+// arr[4] = undefined;
+// delete arr[7];
+// console.log(arr);
+// console.log(arr[4] );
+// console.log(arr[0] );
+// console.log(arr[8]);
+// console.log(arr);
+
+//push()
+//pop()
+//unshift()
+//shift()
+// let arr = [20, 30, 40];
+// console.log(arr);
+// arr.push(50);
+// console.log(arr);
+// arr.unshift(10);
+// console.log(arr);
+// arr.pop();
+// console.log(arr);
+// arr.shift();
+// console.log(arr);
+
+
+
+// The splice() method changes the contents of an array by removing or replacing existing elements and/or adding new elements in place
+//splice()
+
+
+// let arr = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
+// arr.splice(-4, 3, 11, 12, 13);
+// arr.splice(4, 3);///start from 4 and delete 3 element
+// console.log(arr);
+// arr.splice(-2);
+// arr.splice(6, 1);
+// console.log(arr);
+// arr.splice(0, 1);
+// console.log(arr);
+// arr.splice(1, 1);
+// console.log(arr);
+// arr.splice(2, 3, 11, 12, 13);
+// console.log(arr);
+// arr.splice(1, 0, 30);
+// console.log(arr);
+// arr.splice(0, 1, 11, 22);
+// console.log(arr);
+// arr.splice(9, 0, 100);
+// console.log(arr);
+// arr.splice(1);
+// console.log(arr.splice(1));
+// console.log(arr);
+
+
+
+
+
+//slice()
+
+// The slice() method returns a shallow copy of a portion of an array into a new array object selected from start to end (end not included) where start and end represent the index of items in that array.
+// The original array will not be modified.
+
+// let arr = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
+
+// console.log(arr.slice(3));
+// console.log(arr.slice(-2));
+// console.log(arr.slice(3, -2));
+// console.log(arr.slice(3, -9));
+// console.log(arr.slice(2, -4));
+// console.log(arr.slice(1, 5));
+// console.log(arr.slice(-10, 8));
+// console.log( arr.slice(-2) );
+// console.log(arr);
