@@ -129,3 +129,48 @@
 // console.log(arr.slice(-10, 8));
 // console.log( arr.slice(-2) );
 // console.log(arr);
+
+
+
+
+
+
+//Deep copying vs Shallow copying
+
+// whats is copy?
+// Making a copy means that you initiate a new variable with the same value.
+
+//  Deep copying
+// a deep copy means that att of the value of the new variable are copied and disconnected from original
+
+// shallow copying
+// A shallow copy means that certain (sub-) value are still connected with the original value.
+
+
+
+//spread operater
+// arr1=[100,200,300,400]
+// arr2=[500,600,700,800]
+// console.log(...arr1,...arr2)
+// console.log(arr1,arr2)
+// console.log(...arr1,arr2)
+// console.log(arr1,...arr2)
+// console.log(arr1+arr2)
+
+
+// arr1=[100,200,300,400]
+// xerox=[...arr1]
+
+// console.log(...xerox)
+// console.log(...arr1,...xerox)
+// arr1.push(500)
+// xerox.push(600)
+// console.log(...arr1)
+// console.log(...xerox)
+// xerox=[...arr1]
+// arr1.pop()
+// arr1.shift()
+// arr1.unshift(40)
+// xerox.unshift(10)
+// console.log(...arr1)
+// console.log(...xerox)
