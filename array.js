@@ -174,3 +174,71 @@
 // xerox.unshift(10)
 // console.log(...arr1)
 // console.log(...xerox)
+
+
+
+
+
+
+
+
+// function fun_one()
+// {
+//     console.log("hello")
+// }
+// function fun_two()
+// {
+//     let arr=[];
+//     for (let i=0;i<5;i++)
+//     {
+//         arr.push(fun_one())
+//     }
+// }
+// // console.log(fun_one)
+// fun_two()
+// //fun_one()
+// console.log(fun_one())
+
+
+
+
+// function fun_one(arg1,arg2,arg3)
+// {
+//     console.log(arg1(),arg2(),arg3())
+// }
+// function fun_two(){
+//     return "hello";
+// }
+// function fun_three(){
+//     return "hello-1";
+// }
+// function fun_four(){
+//     return "hello-2";
+// }
+// fun_one(fun_two,fun_three,fun_four)
+
+
+
+
+
+
+
+
+// Arrow function
+
+// let fun_one = ()=> "welcome to arrow function";
+
+// console.log(fun_one())
+
+
+
+
+
+
+// let fun_one = ()=> {
+//     return ()=> {
+//         return "hello";
+//     };
+// };
+
+// console.log(fun_one()())
