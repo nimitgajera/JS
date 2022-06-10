@@ -242,3 +242,55 @@
 // };
 
 // console.log(fun_one()())
+
+
+
+// Rest function
+// it is same as spread function
+// its use 1 time in function
+
+
+
+// function fun_one (...arg1)
+// {
+//     console.log("arg1")
+// }
+// fun_one()
+
+//IIFE Function
+
+// ((arg1,arg2,arg3)=>{
+//     console.log(arg1,arg2,arg3)
+// })("Nimit","nishchay","Undefined")
+
+
+
+
+// ((arg1,arg2,arg3)=>{
+//     console.log(arg1,arg2,arg3)
+// })(
+//     (()=>{
+//         return "#Nimit";
+//     })(),
+//     (()=>{
+//         return "#Nishchay";
+//     })(),
+//     (()=>{
+//         return "#GETREADY";
+//     })()
+// );
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
