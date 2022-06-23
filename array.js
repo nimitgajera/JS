@@ -286,6 +286,41 @@
 
 
 
+//   CALL BACK function
+// passing one function definition to another function as a paramater is called callback function
+
+
+// function one (str){
+//     return str;
+// }
+// function three(parm1){
+//     console.log(parm1);
+//     console.log(parm1());
+// }
+// function two ()
+// {
+//     return "two";
+// }
+// three(two);
+
+
+// function three(param1)
+// {
+//     console.log(param1())
+// }
+// three(function (){
+//     return "newfunction";
+// });
+
+
+
+
+
+
+
+
+
+
 
 
 
