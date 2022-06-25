@@ -73,17 +73,21 @@
 
 
 
-let nimit = ( time, done ) => {
-  let open=true;
-      return new Promise( ( resolve, reject )=>{
-      setTimeout(()=>{resolve(done())},time)
-})
-    }
-  nimit(2000,()=>console.log(`1`))
-  .then(()=> nimit(2000,()=>console.log("2")))
-  .then(()=> nimit(1500,()=>{console.log("3")}))
-  .then(()=> nimit(1000,()=>{console.log("4")}))
-  .then(()=> nimit(2000,()=>console.log("5")));
+// let nimit = ( time, done ) => {
+//       return new Promise( ( resolve, reject )=>{
+//       setTimeout(()=>{resolve(done())},time)
+// })
+//     }
+//   nimit(2000,()=>console.log(`1`))
+//   .then(()=> nimit(2000,()=>console.log("2")))
+//   .then(()=> nimit(1500,()=>{console.log("3")}))
+//   .then(()=> nimit(1000,()=>{console.log("4")}))
+//   .then(()=> nimit(2000,()=>console.log("5")));
+
+
+
+
+
 
 
 
