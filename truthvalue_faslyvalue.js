@@ -22,4 +22,4 @@ let b=[1]
 // console.log(false==[])
 // console.log(true==b[0])
 // console.log(true==b)
-console.log((" ".length))
+// console.log((" ".length))
