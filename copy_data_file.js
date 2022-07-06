@@ -11,7 +11,6 @@ fs.unlink("test.txt", (err) => {
     }
 });
 
-
 var http = require("http");
 var server = http.createServer((request, response) => {
     response.write(result.toString());

@@ -1,0 +1,167 @@
+{
+  "Banks":[
+  {
+      "ID":1,
+      "bankName":"Axis Bank Ltd."
+  },
+  {
+      "ID":2,
+      "bankName":"HDFC Bank Ltd."
+  },
+  {
+      "ID":3,
+      "bankName":"DCB Bank Ltd."
+  },
+  {
+      "ID":4,
+      "bankName":"IDBI Bank Ltd."
+  },
+  {
+      "ID":5,
+      "bankName":"YES Bank Ltd."
+  },
+  {
+      "ID":6,
+      "bankName":"Bank of Baroda"
+  }
+  ],
+  "Users":[
+  {
+      "Userid":101,
+      "bankID":1,
+      "bank-branch":"gujarat",
+      "IFSC_code":"59761c23b30d971669fb42ff"
+  },
+  {
+      "Userid":102,
+      "bankID":4,
+      "bank-branch":"gujarat",
+      "IFSC_code":"23761c23b30d971669fb42fd"
+  },
+  {
+      "Userid":103,
+      "bankID":3,
+      "bank-branch":"gujarat",
+      "IFSC_code":"23761c23b30d971669fb42fd"
+  },
+  {
+      "Userid":104,
+      "bankID":1,
+      "bank-branch":"gujarat",
+      "IFSC_code":"23761c23b30d971669fb42fd"
+  },
+  {
+      "Userid":105,
+      "bankID":6,
+      "bank-branch":"gujarat",
+      "IFSC_code":"23761c23b30d971669fb42fd"
+  }
+  ],
+  "Login":[
+      {
+          "userid":101,
+          "userName":"Ansh86",
+          "password":"123433"
+      },
+      {
+          "userid":102,
+          "userName":"Nimit23",
+          "password":"342710"
+      },
+      {
+          "userid":103,
+          "userName":"Kshil23",
+          "password":"342712"
+      },
+      {
+          "userid":104,
+          "userName":"Khushi324",
+          "password":"342210"
+      },
+      {
+          "userid":105,
+          "userName":"janvi232",
+          "password":"332710"
+      }
+  ],
+  "Bank_details":[
+      {
+          "id": 101, "Bank_id": 1, "country":"India","currency":"INR","account_type":"SAVING","holder_name":"ANSH SHELADIYA","creditable":true,
+        "debitable":true
+      },
+      {
+          "id": 102, "Bank_id":4, "country":"India","currency":"INR","account_type":"CURRENT","holder_name":"NIMIT GAJERA","creditable":true,
+          "debitable":true
+        },
+        {
+          "id": 103, "Bank_id":3, "country":"India","currency":"INR","account_type":"SAVING","holder_name":"KASHIL DOBARIYA","creditable":true,
+          "debitable":true
+        },
+        {
+          "id": 104, "Bank_id":1, "country":"India","currency":"INR","account_type":"SAVING","holder_name":"JANVI DOMADIYA","creditable":true,
+          "debitable":true
+        },
+        {
+          "id": 105, "Bank_id":6, "country":"India","currency":"INR","account_type":"SAVING","holder_name":"KHUSHI VADODARIYA","creditable":true,
+          "debitable":true
+        }
+  ],
+  "Personal_Inforamations":[
+      {
+          "User_Id":101,"FirstName":"Ansh","LastName":"Sheladiya","Age":19,"Address":"Surat","state":"Gujarat","Mobile-Number":"9123456789","Gender":"MALE","Emails":{
+            "Email":"anshsheladiya@gmail.com"
+          }
+        },
+        {
+         "User_Id":102, "FirstName":"NIMIT","LastName":"GAJERA","Age":18,"Address":"Surat","state":"Gujarat","Mobile-Number":"9123454353","Gender":"MALE","Emails":{
+            "Email":"nimitgajera@gmail.com"
+          }
+        },
+        {
+          "User_Id":103,"FirstName":"KASHIL","LastName":"DOBARIYA","Age":21,"Address":"Surat","state":"Gujarat","Mobile-Number":"9923456459","Gender":"MALE",
+          "Emails":{
+            "Email":"kashildobariya@gmail.com"
+          }
+        },
+        {
+          "User_Id":104,"FirstName":"JANVI","LastName":"DOMADIYA","Age":19,"Address":"Surat","state":"Gujarat","Mobile-Number":"9923456456","Gender":"FEMALE",
+          "Emails":{
+            "Email":"janvi@gmail.com"
+          }
+        },
+        {
+          "User_Id":105,"FirstName":"KHUSHI","LastName":"VADODARIYA","Age":21,"Address":"Surat","state":"Gujarat","Mobile-Number":"9923452344","Gender":"FEMALE",
+          "Emails":{
+            "Email":"khushi@gmail.com"
+          }
+        }
+
+  ],
+  "Balance":[
+      {
+          "User_id":101,
+          "IFSC_Code":"59761c23b30d971669fb42ff",
+          "Current_Balance":15000
+      },
+      {
+          "User_id":102,
+          "IFSC_Code":"59761c23b30d971669fb42ff",
+          "Current_Balance":2000
+      },
+      {
+          "User_id":103,
+          "IFSC_Code":"59761c23b30d971669fb42ff",
+          "Current_Balance":5000
+      },
+      {
+          "User_id":104,
+          "IFSC_Code":"59761c23b30d971669fb42ff",
+          "Current_Balance":12400
+      },
+      {
+          "User_id":105,
+          "IFSC_Code":"59761c23b30d971669fb42ff",
+          "Current_Balance":500
+      }
+  ]
+}
